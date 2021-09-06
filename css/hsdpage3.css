@@ -1,0 +1,63 @@
+.divide {
+  display: flex;
+  column-gap: 5rem;
+  margin: 5rem auto;
+}
+.divide .leftt {
+  width: 20%;
+}
+
+.divide .first,
+.divide .second,
+.divide .third,
+.divide .fourth,
+.divide .fifth {
+  /* margin: 3rem 0; */
+  position: relative;
+  padding: 1rem 0;
+}
+.divide strong {
+  display: inline-block;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.fa-angle-up {
+  position: absolute;
+  right: 1rem;
+  bottom: 2rem;
+  font-size: 2.2rem;
+}
+
+.filter {
+  margin: 1rem 0;
+}
+
+.filter input[type="checkbox"] {
+  margin-right: 1rem;
+}
+
+.leftt input[type="range"] {
+  margin: 0rem 0;
+}
+
+.leftt button#apply-filters {
+  background-color: orangered;
+  padding: 1rem 2rem;
+  color: #fff;
+  border: none;
+}
+
+.leftt .apply-filter {
+  text-align: right;
+}
+
+@media (max-width: 800px) {
+  .leftt {
+    display: none;
+  }
+}
+
+#classificat {
+  margin-top: 5rem;
+}

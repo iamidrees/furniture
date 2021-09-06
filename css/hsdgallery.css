@@ -1,0 +1,88 @@
+.page2-showcase {
+  background-image: url("../images/assets/images/cover5.jpeg");
+  min-height: 60vh;
+  background-size: 100% 100%;
+  background-position: center;
+  color: #fff;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.page2-showcase h1 {
+  /* margin: auto; */
+  margin: 2rem auto;
+}
+.page2-showcase button {
+  background-color: #fff;
+  color: black;
+  padding: 1.5rem 3rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.8rem;
+}
+.page2-showcase button:hover {
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+}
+
+@media (max-width: 360px) {
+  .page2-showcase h1 {
+    font-size: 2.4rem;
+  }
+  .page2-showcase button {
+    font-size: 1.4rem;
+  }
+}
+
+.item {
+  flex-grow: 1;
+  max-width: 400px;
+}
+
+.section-third {
+  margin: 6rem 0;
+}
+
+header {
+  margin-bottom: 0;
+}
+
+.text-yellow {
+  color: rgb(255, 180, 42);
+}
+
+.items .view-all {
+  align-self: center;
+}
+.item-name {
+  text-align: left;
+}
+
+.below-hero,
+.section-two {
+  margin: 6rem 0rem;
+  text-align: center;
+}
+
+.section-two-showcase {
+  display: flex;
+  column-gap: 2rem;
+  margin: 5rem 0;
+  /* flex-wrap: wrap; */
+  width: 100%;
+}
+
+.section-two-showcase img {
+  width: 25%;
+}
+
+.section-two-showcase img:nth-of-type(2) {
+  width: 50%;
+}
+
+@media (max-width: 500px) {
+  .section-two-showcase {
+    display: none;
+  }
+}

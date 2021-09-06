@@ -1,0 +1,133 @@
+main.showcase {
+  display: flex;
+  flex-direction: column;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  line-height: 3rem;
+}
+.showcase-text p {
+  margin: 1rem 0;
+}
+
+.showcaseDiv {
+  margin: 5rem auto;
+}
+
+.showcase-img {
+  width: 100%;
+  max-width: 700px;
+}
+
+p#info-about-product {
+  line-height: 1;
+  margin: 1rem 0;
+}
+
+p#colors {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+div.circle {
+  width: 15px;
+  height: 15px;
+  background-color: yellowgreen;
+  border-radius: 50%;
+  display: inline-block;
+}
+div.circle:nth-of-type(2) {
+  background-color: yellow;
+}
+div.circle:nth-of-type(3) {
+  background-color: red;
+}
+div.circle:nth-of-type(4) {
+  background-color: maroon;
+}
+
+.add-to-cart {
+  padding: 2% 5%;
+  background-color: rgb(255, 180, 42);
+  border: none;
+  border-radius: 3px;
+  width: 30%;
+  color: #fff;
+}
+.items {
+  display: flex;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  flex-wrap: wrap;
+  margin: 3rem 0;
+}
+
+.item img {
+  width: 80%;
+  height: 80%;
+}
+.item .product-image {
+  text-align: center;
+}
+.item {
+  width: 25rem;
+  min-height: 33rem;
+  background-color: rgb(236, 236, 236);
+  padding: 1rem;
+}
+.item .used {
+  background-color: orangered;
+  width: min-content;
+  padding: 1rem;
+  color: #fff;
+}
+
+.item .new {
+  background-color: rgb(255, 180, 42);
+  width: min-content;
+  padding: 1rem;
+  color: #fff;
+}
+.item .item-name {
+  margin: 1rem 0px;
+}
+.item button {
+  border: none;
+  border: 1px solid grey;
+  padding: 0.9rem;
+}
+
+.item .flex-it {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  main.showcase {
+    flex-direction: row;
+  }
+  .showcase-img {
+    width: 80%;
+  }
+  .showcase-text {
+    width: 100%;
+  }
+
+  /* button {
+    padding: 2% 5%;
+    width: 30%;
+  } */
+}
+
+@media (max-width: 577px) {
+  .items {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .item {
+    width: 80%;
+    min-height: 33rem;
+    background-color: rgb(236, 236, 236);
+    padding: 1rem;
+  }
+}

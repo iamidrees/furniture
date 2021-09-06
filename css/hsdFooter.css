@@ -1,0 +1,22 @@
+.footer {
+  background-color: rgb(240, 240, 240);
+  padding: 2rem 0;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 5rem;
+  flex-wrap: wrap;
+  row-gap: 5rem;
+  margin-bottom: 5rem;
+}
+.footer-section-1,
+.footer-section-2,
+.footer-section-3,
+.footer-section-4 {
+  flex-basis: 250px;
+}
+
+li {
+  margin: 1rem 0 1rem 0;
+}
